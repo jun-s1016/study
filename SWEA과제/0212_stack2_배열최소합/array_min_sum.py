@@ -1,4 +1,4 @@
-T = int(input())
+ T = int(input())
 
 def dfs(row,selected,total):
     global min_value
