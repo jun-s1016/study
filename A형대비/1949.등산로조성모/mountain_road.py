@@ -13,7 +13,7 @@ dc = [1,0,-1,0]
 def dfs(r,c,used,cur_h, length):
     global ans
     if length > ans :
-        ans = length 
+        ans = length
     # 상하좌우 탐색
     for d in range(4):
         nr = r + dr[d]
@@ -30,6 +30,8 @@ def dfs(r,c,used,cur_h, length):
                 dfs(nr,nc,used,nh,length+1)
                 # 돌아왔을 때 방문횟수 - 
                 visited[nr][nc] = 0
+
+    #가로막혔을떈 공사를한다.
             elif used == 0 and nh-K < cur_h:
                 cut_h = cur_h - 1 
                 visited[nr][nc] = 1
