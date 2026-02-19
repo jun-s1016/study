@@ -1,2 +1,1 @@
-# study
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# A형대비문제 + SWEA/백준/코드트리 모음집
